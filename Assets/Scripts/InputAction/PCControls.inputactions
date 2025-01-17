@@ -1,0 +1,406 @@
+{
+    "name": "PCControls",
+    "maps": [
+        {
+            "name": "CharacterControls",
+            "id": "35b63127-b136-412c-8bf6-111f8a18cd2d",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "1e432317-0c69-443e-87e8-2b8bc0757564",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "00f72b3a-7e85-4fc5-a83e-e7f8cbf8a5f0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ZoomCamera",
+                    "type": "Value",
+                    "id": "8b9b6a7b-362a-469c-98c2-31c121924439",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "05829f38-2387-462f-ad5d-c2618d69af79",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "2e3ff5dc-b331-4323-a88a-5e39feabbfd6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "8068c558-0860-4878-b2eb-c61b4bb10780",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "2ed3f2dd-382a-4c39-a579-bbd1071d2634",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "644b60db-efa4-4b7e-beb1-1d59e2b8fe07",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "a48510d4-fdc9-450f-b253-5316575c3fbe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "49201b3e-75f7-4557-a937-8f4d965d9636",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Encyclopedia",
+                    "type": "Button",
+                    "id": "d356ef97-0756-4445-b8e3-b0bbc27c5fe2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Options",
+                    "type": "Button",
+                    "id": "a5fa145e-a55c-4a6b-932e-19b05df2ddf4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Save",
+                    "type": "Button",
+                    "id": "ab0ade43-ab5f-4ccd-8874-b1a9f9eb1356",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Map",
+                    "type": "Button",
+                    "id": "662db936-e544-4a45-b147-1e960249338f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Party",
+                    "type": "Button",
+                    "id": "52222c46-9420-4193-8ac4-936e772fce6f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "e89e87fb-7f93-4fbe-8b1c-0bc11ffdf526",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f8b43aa9-7ba8-4055-978d-715a4be97b14",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "76a7cf36-978c-4f34-9c22-d39aae3c2dbd",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "ZoomCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "22ac10a9-5e95-48cd-87a7-1e771f8374c3",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "70922416-5e34-4a87-82d8-fa5d009cd1c9",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "098cb810-3f07-4dae-841a-9345dd947002",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "348aabe8-6ced-4d3d-8dd4-bb1f0b87f16e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "206b6dab-18c5-4721-ae17-9364804c7af7",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "25abf3d9-e2fb-41e7-98e6-5c01e73eb21e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ae067c1-4dd6-46e2-a671-44bab7b0dd8d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8604d181-ade2-4b38-8aba-5c32e8a5133a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36e03654-b8de-4afe-b112-39850387cd00",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bea9b1d7-c5bc-473f-9a5e-20e95bc3eedf",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1325a0bc-6a2e-4960-9ac2-22ee6f41e025",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "43df2156-9f9a-44af-a210-48edb4679436",
+                    "path": "<Keyboard>/b",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdeb8885-0382-4f08-8768-c141c0c3c430",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "72a0012f-bf9e-4cce-9b69-4ecb71abbeae",
+                    "path": "<Keyboard>/n",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Encyclopedia",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e2381060-4b50-44ba-b920-40aa7b6899a6",
+                    "path": "<Keyboard>/o",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Options",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "965ace5a-d42c-45a2-938f-e11ef810ca6e",
+                    "path": "",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8367a7db-0663-4393-afd3-abadacdf88c9",
+                    "path": "<Keyboard>/m",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Map",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef7ade15-f2d2-4b02-ad0c-e39ae0f05bdd",
+                    "path": "<Keyboard>/p",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Party",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d36eec6-f961-4428-aa36-9b7707793ac6",
+                    "path": "<Keyboard>/i",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
